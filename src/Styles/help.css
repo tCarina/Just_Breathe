@@ -1,4 +1,32 @@
-.gif {
-    width: 10%;
-    background-color: aliceblue;
+.gif{
+    max-width: 23em;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+.helpContainer {
+    background-color: #bbd0ff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #5C6FFF;
+    font-family: Skate;
+}
+
+@font-face {
+    font-family: Skate;
+    src: url('./Fonts/SkateInAtlanta\ DEMO.otf');
+}
+
+.link {
+    text-decoration: none;
+    color: #9470FF; 
+}
+
+p {
+    font-size: 1.7em;
 }
