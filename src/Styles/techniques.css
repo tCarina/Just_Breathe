@@ -1,5 +1,9 @@
-p, h1, h2 {
+.carousel-h3{
+    color: black
+}
+.carousel-p{
     color: black;
+    font-size: 1em;
 }
 
 .first-header {
@@ -7,9 +11,7 @@ p, h1, h2 {
     top: -300px;
 }
 
-.img2 {
-    width: 300px;
-}
+
 
 .modal-div {
     border: 2px solid black;
@@ -32,10 +34,10 @@ p, h1, h2 {
     .modal-div{
         position: relative;
     }
-    h2 {
+    .carousel-h3 {
         font-size: small !important;
     }
-    p {
+    .carousel-p {
         font-size: x-small;
     }
     a{font-size: x-small;}
