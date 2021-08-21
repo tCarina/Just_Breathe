@@ -1,0 +1,42 @@
+p, h1, h2 {
+    color: black;
+}
+
+.first-header {
+    position: absolute;
+    top: -300px;
+}
+
+.img2 {
+    width: 300px;
+}
+
+.modal-div {
+    border: 2px solid black;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px; 
+    border-radius: 12px; 
+    padding: 3px;
+    position: fixed;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(204, 235, 233, 0.849);
+}
+
+@media screen and (max-width: 700px) {
+    .carousel-div {
+        position: absolute;
+        top: 25%;
+    }
+    .modal-div{
+        position: relative;
+    }
+    h2 {
+        font-size: small !important;
+    }
+    p {
+        font-size: x-small;
+    }
+    a{font-size: x-small;}
+}
