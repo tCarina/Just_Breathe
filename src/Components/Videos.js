@@ -8,7 +8,7 @@ export default function Videos() {
     const [videos, setVideos] = useState([]);
 
     const getYouTube = async (selectedVideoType) => {
-        let url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=${selectedVideoType}&type=video&key=${process.env.REACT_APP_API_KEY}`
+        let url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=9&q=${selectedVideoType}&type=video&key=${process.env.REACT_APP_API_KEY}`
 
         try {
             const res = await axios.get(url);
@@ -19,6 +19,10 @@ export default function Videos() {
         }
     }
 
+    useEffect(() => {
+        getYouTube("Anxiety Information")
+    }, [])
+
     const selectVideoType = (e) => {
         getYouTube(e.target.value)
     }
@@ -26,16 +30,17 @@ export default function Videos() {
 
     return (<div><NavBar />
         <div className="videos-body">
-            <select className="select-video-type" defaultValue={'Search'} onChange={selectVideoType}>
-                <option disabled>Search</option>
-                <option value="Anxiety Information">General Anxiety Information</option>
-                <option value="helping someone with Anxiety">Helping someone with Anxiety</option>
-                <option value="Handling Panic Attack">How to deal with panic attacks</option>
-            </select>
+            <div className="select-wrapper">
+                <select className="select-video-type" defaultValue={'Search'} onChange={selectVideoType}>
+                    <option value="Anxiety Information">General Anxiety Information</option>
+                    <option value="helping someone with Anxiety">Helping someone with Anxiety</option>
+                    <option value="Handling Panic Attack">How to deal with panic attacks</option>
+                </select>
+            </div>
 
             <ul className="videoList">
                 {videos.map(video => <div className="li-video">
-                    {<iframe title='youtubeVideo' className="iframe-video" 
+                    {<iframe title='youtubeVideo' className="iframe-video"
                         src={`https://www.youtube.com/embed/${video.id.videoId}`}>
                     </iframe>}
                     {/* <h5>{video.snippet.title}</h5> */}
