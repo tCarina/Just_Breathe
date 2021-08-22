@@ -1,13 +1,13 @@
 
 .About {
     padding: 40px;
-    font-family: Futura;
+    font-family: Comfort;
     background-color: #BBD0FF;
   }
   
   .header {
     background-color: white;
-    font-size: 22px;
+    font-size: 2.2em;
     padding: 20px 40px;
     border-radius: 20px;
     transition: transform 0.2s;

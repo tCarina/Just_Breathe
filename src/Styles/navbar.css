@@ -11,7 +11,7 @@ nav {
     font-size: 2em;
     text-decoration: none;
     color:white;
-    font-family: Calm;
+    font-family: ComfortBold;
 }
 .nav-logo{
     font-size: 3.7em;
@@ -35,10 +35,9 @@ nav {
     src: url('./Fonts/Creamy\ Coconut.ttf');
 }
 
-
 @font-face {
-    font-family: Calm;
-    src: url('./Fonts/Calm\ Down.ttf');
+    font-family: ComfortBold;
+    src: url('./Fonts/Comfortaa-Bold.ttf');
 }
    
    @media screen and (max-width: 900px) {

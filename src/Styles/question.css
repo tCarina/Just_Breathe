@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: Skate;
+  font-family: Comfort;
   color: #5c6fff;
 }
 
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
 
-  font-family: Calm;
+  font-family: Tang;
 }
 
 .question {
