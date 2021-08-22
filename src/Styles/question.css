@@ -29,21 +29,20 @@
   font-size: 5em;
 }
 
-@keyframes mymove {
-  from {
-    font-size: 3.5em;
-    color: white;
+  @keyframes mymove {
+    from {
+      font-size: 3.5em;
+      color: white;
+    }
+    to {
+      font-size: 4em;
+  
+      color: #9470FF;
+    }
   }
-  to {
-    font-size: 4em;
-
-    color: #9470FF;
-
+  
+  .qLink:hover {
+    animation: mymove 1s ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
   }
-}
-
-.qLink:hover {
-  animation: mymove 1s ease-in-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-}
