@@ -16,19 +16,30 @@ Deciding on the color and styling scheme for our application was based around th
 
 ### `Pages`
 
-#### Home Page: ```/```
+#### Launch Page: ```/```
 
+User is asked if they are feeling stressed out and anxious at the moment.
 
+#### Help Page: ```/help```
 
-#### Raffle Page: ```/help```
+If user is stressed, they are immediately introduced to a guiding page to help relax them.
 
-#### Raffle Page: ```/home```
+#### Home Page: ```/home```
 
-#### Raffle Page: ```/techniques```
+Home introduces the audience to the subject of anxiety. Learn important facts about mental health
 
-#### Raffle Page: ```/videos```
+#### Techniques Page: ```/techniques```
 
-#### Raffle Page: ```/about```
+A variety of coping strategies is presented to the user. These techniques are presented in a bootstrap caoursel elements with calming backgrounds and simple explanation cards.
+
+#### Videos Page: ```/videos```
+
+Another way for people to learn from our app is the video section. The user is presented with a simple list 
+of the most popular videos regarding general anxiety information, handling panic attacks and helping someone else suffering from anxiety. Videos are generated on to the page using YouTube API.
+
+#### About Page: ```/about```
+
+About section displays profiles of the team
 
 -----
 ##### Libraries used:
