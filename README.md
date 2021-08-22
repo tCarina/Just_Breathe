@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Just Breathe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Just Breathe is a potentially award-winning React frontend application in response to Pursuit's Hackathon
 
-## Available Scripts
 
-In the project directory, you can run:
+##### `Project Description`
 
-### `npm start`
+This  built around with the concept of providing a more accessible and healthier way to cope with their Anxiety. What sets us apart from other applications is the simplicity of the app as well as targeting specifically only Anxiety
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `App Presentation`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Deciding on the color and styling scheme for our application was based around these reasonings:
+- Providing a warm and friendly environment
+- Colors that are related to anti-stress
+- Simple and straightforward design 
 
-### `npm test`
+### `Pages`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Launch Page: ```/```
 
-### `npm run build`
+User is asked if they are feeling stressed out and anxious at the moment.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Help Page: ```/help```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If user is stressed, they are immediately introduced to a guiding page to help relax them.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Home Page: ```/home```
 
-### `npm run eject`
+Home introduces the audience to the subject of anxiety. Learn important facts about mental health
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Techniques Page: ```/techniques```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A variety of coping strategies is presented to the user. These techniques are presented in a bootstrap caoursel elements with calming backgrounds and simple explanation cards.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Videos Page: ```/videos```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Another way for people to learn from our app is the video section. The user is presented with a simple list 
+of the most popular videos regarding general anxiety information, handling panic attacks and helping someone else suffering from anxiety. Videos are generated on to the page using YouTube API.
 
-## Learn More
+#### About Page: ```/about```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+About section displays profiles of the team
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-----
+##### Libraries used:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- react
+- react-router-dom
+- axios
+- react-bootstrap
+- bootstrap
