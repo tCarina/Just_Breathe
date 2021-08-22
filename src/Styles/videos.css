@@ -1,0 +1,20 @@
+.videoList{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 20px;
+}
+
+.select-video-type{
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.video-thumbnail {
+    width: 17em;
+    height: 17em;
+    border: 2px solid black;
+    border-radius: 2%;
+}

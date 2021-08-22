@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Help from "./Components/Help";
 import About from "./Components/About";
 import Techniques from "./Components/Techniques";
+import Videos from "./Components/Videos";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/videos">
+            <Videos />
           </Route>
           <Route exact path="/techniques">
             <Techniques />

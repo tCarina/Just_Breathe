@@ -1,0 +1,39 @@
+.Home{
+    background-color: #BBD0FF;
+}
+.card-facts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.card{
+    min-height: 25em;
+    max-height: 25em;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 1em;
+}
+
+.card-body{
+    padding-bottom: 1.5em;
+}
+
+.card2{
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.card3{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.card4{
+    grid-column: 3/4;
+    grid-row: 1;
+}

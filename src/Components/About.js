@@ -1,9 +1,9 @@
 import React from "react";
 import "../Styles/About.css";
-import img1 from "../Media/Carina.jpg"
-import img2 from "../Media/Shoaib.jpg"
-import img3 from "../Media/Carlos.jpg"
-import NavBar from './Navbar';
+import img1 from "../Media/Carina.jpg";
+import img2 from "../Media/Shoaib.jpg";
+import img3 from "../Media/Carlos.jpg";
+import NavBar from "./Navbar";
 export default function About() {
   return (
     <div>
@@ -67,8 +67,8 @@ export default function About() {
             </a>
           </div>
         </section>
-      </section>
-    </main>
+        </section>
+      </main>
     </div>
   );
 }

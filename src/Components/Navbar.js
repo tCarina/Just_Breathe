@@ -19,6 +19,11 @@ export default function NavBar() {
                     </NavLink>
                 </Nav>
                 <Nav>
+                    <NavLink className="nav-text" exact to="/videos">
+                        Educational Videos
+                    </NavLink>
+                </Nav>
+                <Nav>
                     <NavLink className="nav-text" exact to="/about">
                         About
                     </NavLink>
