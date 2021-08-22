@@ -21,6 +21,7 @@
   width: 2em;
   display: flex;
   justify-content: center;
+
   font-family: Calm;
 }
 
@@ -35,7 +36,9 @@
   }
   to {
     font-size: 4em;
+
     color: #9470FF;
+
   }
 }
 
