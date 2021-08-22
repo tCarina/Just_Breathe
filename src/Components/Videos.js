@@ -28,7 +28,7 @@ export default function Videos(){
     <select className="select-video-type" defaultValue={''} onChange={selectVideoType}>
         <option disabled></option>
         <option value="Anxiety Information">General Anxiety Information</option>
-        <option value="Friend Anxiety">Helping someone with Anxiety</option>
+        <option value="helping someone with Anxiety">Helping someone with Anxiety</option>
         <option value="Handling Panic Attack">How to deal with panic attacks</option>
 
     </select>

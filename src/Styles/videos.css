@@ -7,9 +7,10 @@
 }
 
 .select-video-type{
-    height: 40px;
+    height: 50px;
     margin: 20px;
     padding: 10px;
+    font-size: 1.1em;
 }
 
 .video-thumbnail {
