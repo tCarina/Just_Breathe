@@ -27,6 +27,7 @@ export default function About() {
               className="top"
             />
             <h5>Carlos Hidalgo</h5>
+            <h6>Scrum Master</h6>
             <p>Personal Description</p>
             <a
               href="https://github.com/chidalgo1221"
@@ -40,6 +41,7 @@ export default function About() {
           <div className="Carina">
             <img src={img1} alt="Carina-Taveras-pic" />
             <h5>Carina Taveras</h5>
+            <h6>Design Lead</h6>
             <p>Need a personal description</p>
             <a
               href="https://github.com/tCarina"
@@ -53,6 +55,7 @@ export default function About() {
           <div className="Shoaib">
             <img src={img2} alt="Shoaib-Dar-pic" />
             <h5>Shoaib Dar</h5>
+            <h6>Technical Lead</h6>
             <p>Need a personal description</p>
             <a
               href="https://github.com/SDAR30"
