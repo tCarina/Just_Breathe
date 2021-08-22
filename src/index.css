@@ -13,14 +13,6 @@ code {
     monospace;
 }
 
-nav {
-  background: linear-gradient(270deg, #9595e9, #7777e1, #6a6ad4);
-	-webkit-animation: AnimationName 9s ease infinite;
-	-moz-animation: AnimationName 9s ease infinite;
-	animation: AnimationName 9s ease infinite;
-	background-size: 600% 600%;
-}
-
 .icon{
   height: 80px;
   padding-right: 20px;

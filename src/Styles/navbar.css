@@ -1,0 +1,33 @@
+nav {
+    background: linear-gradient(270deg, #9595e9, #7777e1, #6a6ad4);
+      -webkit-animation: AnimationName 9s ease infinite;
+      -moz-animation: AnimationName 9s ease infinite;
+      animation: AnimationName 9s ease infinite;
+      background-size: 600% 600%;
+  }
+
+
+.nav-text {
+    font-size: 2.2rem !important;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+   }
+   .nav-logo{
+    font-size: 1.5rem !important;
+    text-shadow: 2px 2px 5px rgb(192, 192, 192);
+   }
+   
+   .nav-text:hover{
+       color:rgb(93, 207, 241)
+   }
+
+   
+   .active{
+       color:rgb(255, 255, 255);
+   }
+   
+   @media screen and (max-width: 900px) {
+       .nav-text{
+           font-size: 1.5rem !important;
+       }
+   }
