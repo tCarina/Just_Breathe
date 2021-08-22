@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import "../Styles/techniques.css"
 import img1 from "../Media/exercise.jpeg"
 import img2 from "../Media/grass.jpeg"
-import img3 from "../Media/imagination.jpeg"
+import img3 from "../Media/imagination2.png"
 import NavBar from './Navbar';
 export default function Techniques() {
     return (
