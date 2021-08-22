@@ -5,6 +5,9 @@ export default function NavBar() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container className="nav-format">
+                <Nav className="nav-logo">
+                    Just Breathe
+                </Nav>
                 <Nav>
                     <NavLink className="nav-text" exact to="/home">
                         Home
@@ -12,7 +15,7 @@ export default function NavBar() {
                 </Nav>
                 <Nav>
                     <NavLink className="nav-text" exact to="/techniques">
-                        Techniques
+                        Coping Techniques
                     </NavLink>
                 </Nav>
                 <Nav>
