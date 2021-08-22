@@ -1,13 +1,15 @@
-.carousel-h3{
-    color: #5c6fff;
-    font-family: Skate;
-    font-size: 1.5em;
-
+.carousel-h3 {
+    color: #354cfa;
+    /* font-family: Skate; */
+    font-size: 1em;
 }
-.carousel-p{
+
+.carousel-p {
     color: black;
-    font-size: .55em;
+    font-size: .5em;
     font-family: Tang;
+    font-weight: 500;
+    margin-bottom: -10px;
 }
 
 .first-header {
@@ -18,51 +20,52 @@
 .modal-div {
     border: 2px solid black;
     -webkit-border-radius: 12px;
-    -moz-border-radius: 12px; 
-    border-radius: 12px; 
+    -moz-border-radius: 12px;
+    border-radius: 12px;
     padding: 3px;
     position: fixed;
     left: 50%;
     top: 75%;
     transform: translate(-50%, -50%);
-    background-color: #ADC7FF;
+    /* background-color: #ADC7FF; */
+    background-color: rgba(196, 205, 255, 0.8);
 }
 
 .tLink {
     text-decoration: none;
-  color: white;
-  font-size: .8em;
-  width: 2em;
-  font-family: Calm;
+    color: white;
+    font-size: .6em;
+    font-family: Calm;
 }
 
 @keyframes mymove2 {
     from {
-      font-size: .8em;
-      color: white;
+        font-size: .8em;
+        color: white;
     }
     to {
-      font-size: .83em;
-      color: #9470FF;
+        font-size: .83em;
+        color: #9470FF;
     }
-  }
+}
 
-  @font-face {
-      font-family: Tang;
-      src: url('./Fonts/Tangiang.otf');
-  }
+@font-face {
+    font-family: Tang;
+    src: url('./Fonts/Tangiang.otf');
+}
 
 .tLink:hover {
     animation: mymove2 1s ease-in-out;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-  }
+}
+
 @media screen and (max-width: 700px) {
     .carousel-div {
         position: absolute;
         top: 25%;
     }
-    .modal-div{
+    .modal-div {
         position: relative;
     }
     .carousel-h3 {
@@ -71,5 +74,7 @@
     .carousel-p {
         font-size: x-small;
     }
-    a{font-size: x-small;}
+    .tLink {
+        font-size: .4em;
+    }
 }
