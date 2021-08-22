@@ -14,12 +14,7 @@ h1 {
     flex-direction: column;
     justify-content: space-evenly;
     color: #5C6FFF;
-    font-family: Skate;
-}
-
-@font-face {
-    font-family: Skate;
-    src: url('./Fonts/SkateInAtlanta\ DEMO.otf');
+    font-family: Coconut;
 }
 
 .link {

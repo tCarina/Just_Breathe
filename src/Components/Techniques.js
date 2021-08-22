@@ -19,7 +19,7 @@ export default function Techniques() {
                         /></div>
                         <Carousel.Caption>
                             <div className="modal-div">
-                                <h3 className="carousel-h3">Walk or do light exercise</h3>
+                                <h3 className="carousel-h3">Walk or Do Light Exercise</h3>
                                 <p className="carousel-p">Walking can remove a person from a stressful environment, and the rhythm of walking may also help them regulate their breathing. Moving around releases hormones called endorphins that relax the body and improve mood. Taking up regular exercise can help reduce anxiety over time, which may lead to a reduction in the number or severity of panic attacks.</p>
                                 <a href="https://www.medicalnewstoday.com/articles/153390" className='tLink'>Learn more here</a>
 
@@ -35,7 +35,7 @@ export default function Techniques() {
 
                         <Carousel.Caption>
                             <div className="modal-div">
-                                <h3 className="carousel-h3">The 5-4-3-2-1 method</h3>
+                                <h3 className="carousel-h3">The 5-4-3-2-1 Method</h3>
                                 <p className="carousel-p">Look at 5 separate objects. Think about each one for a short while.
                                     Listen for 4 distinct sounds. Think about where they came from and what sets them apart.
                                     Touch 3 objects. Consider their texture, temperature, and what their uses are.
@@ -53,7 +53,7 @@ export default function Techniques() {
 
                         <Carousel.Caption>
                             <div className="modal-div">
-                                <h3 className="carousel-h3">Challenge and replace unrealistic thoughts.</h3>
+                                <h3 className="carousel-h3">Challenge And Replace Unrealistic Thoughts</h3>
                                 <p className="carousel-p">This is a process by which you stop your anxiety-producing thoughts and replace them with thoughts of something that brings
                                      you happiness or peace. This can help you avoid rumination, that broken-record thought cycle where you can’t seem to stop
                                       obsessing about something. You can also ask yourself some questions. Is the thing you are afraid of a true and present danger?
