@@ -1,34 +1,34 @@
 .questionContainer {
-    background-color: #bbd0ff;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: Skate;
-    color: #5c6fff;
-  }
-  
-  .links {
-    display: flex;
-    justify-content: space-evenly;
-    max-height: 3em;
-  }
-  
-  .qLink {
-    text-decoration: none;
-    color: white;
-    font-size: 3.5em;
-    width: 2em;
-    display: flex;
-    justify-content: center;
-  
-    font-family: Calm;
-  }
-  
-  .question {
-    font-size: 5em;
-  }
-  
+  background-color: #bbd0ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Comfort;
+  color: #5c6fff;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 3em;
+}
+
+.qLink {
+  text-decoration: none;
+  color: white;
+  font-size: 3.5em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+
+  font-family: Tang;
+}
+
+.question {
+  font-size: 5em;
+}
+
   @keyframes mymove {
     from {
       font-size: 3.5em;
