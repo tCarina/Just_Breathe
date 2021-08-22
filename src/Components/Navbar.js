@@ -1,15 +1,29 @@
-import { Navbar, Container, Nav} from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import {NavLink} from "react-router-dom"
+import "../Styles/navbar.css"
 export default function NavBar() {
-  return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand>Just Breathe</Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="/home">Home</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/techniques">Techniques</Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar>
-  );
+    return (
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Container className="nav-format">
+                <Nav className="nav-logo">
+                    Just Breathe
+                </Nav>
+                <Nav>
+                    <NavLink className="nav-text" exact to="/home">
+                        Home
+                    </NavLink>
+                </Nav>
+                <Nav>
+                    <NavLink className="nav-text" exact to="/techniques">
+                        Coping Techniques
+                    </NavLink>
+                </Nav>
+                <Nav>
+                    <NavLink className="nav-text" exact to="/about">
+                        About
+                    </NavLink>
+                </Nav>
+            </Container>
+        </Navbar>
+    );
 }
