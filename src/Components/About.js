@@ -3,8 +3,11 @@ import "../Styles/About.css";
 import img1 from "../Media/Carina.jpg"
 import img2 from "../Media/Shoaib.jpg"
 import img3 from "../Media/Carlos.jpg"
+import NavBar from './Navbar';
 export default function About() {
   return (
+    <div>
+                        <NavBar />
     <main className="About">
       <div className="header">
         <h1>Purpose</h1>
@@ -39,7 +42,7 @@ export default function About() {
             <h5>Carina Taveras</h5>
             <p>Need a personal description</p>
             <a
-              href="need your github link"
+              href="https://github.com/tCarina"
               target="_blank"
               rel="noopener noreferrer"
               className="github"
@@ -52,7 +55,7 @@ export default function About() {
             <h5>Shoaib Dar</h5>
             <p>Need a personal description</p>
             <a
-              href="Need your github link"
+              href="https://github.com/SDAR30"
               target="_blank"
               rel="noopener noreferrer"
               className="github"
@@ -63,5 +66,6 @@ export default function About() {
         </section>
       </section>
     </main>
+    </div>
   );
 }
