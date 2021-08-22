@@ -1,6 +1,6 @@
 
 .About {
-    padding: 40px;
+    padding: 20px;
     font-family: ComfortBold;
     background-color: #BBD0FF;
     color: #5C6FFF;
@@ -62,7 +62,7 @@
     display: flex;
     justify-content: center;
     font-size: 1.1em;
-    margin-bottom: 20px;
+    padding: 0%;
   }
   
   .About h3 {
@@ -77,6 +77,10 @@
     margin: 0 auto;
     margin-top: 1.5em;
     flex-wrap: wrap;
+  }
+
+  h6 {
+    font-size: 1.5em !important;
   }
   
   .About section div {
@@ -102,19 +106,12 @@
   }
   
   .About section h5 {
-    font-size: 1.6em;
+    font-size: 2em;
     text-align: center;
     padding-bottom: 10px;
     margin: 20px 0px;
   }
   
-  .About section p {
-    padding: 0 2.5em;
-    text-align: center;
-    font-size: 1.5em;
-    color: black;
-    font-family: Tang;
-  }
   
   .github {
     background: linear-gradient(270deg, #2181fe, #21edfe, #3621fe);
