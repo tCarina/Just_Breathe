@@ -21,7 +21,7 @@
   width: 2em;
   display: flex;
   justify-content: center;
-  border-radius: 13%;
+  font-family: Calm;
 }
 
 .question {
@@ -35,7 +35,7 @@
   }
   to {
     font-size: 4em;
-    color: #bb5cff;
+    color: #9470FF;
   }
 }
 

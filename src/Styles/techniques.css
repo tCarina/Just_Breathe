@@ -1,9 +1,13 @@
 .carousel-h3{
-    color: black
+    color: #5c6fff;
+    font-family: Skate;
+    font-size: 1.5em;
+
 }
 .carousel-p{
     color: black;
-    font-size: 16px;
+    font-size: .55em;
+    font-family: Tang;
 }
 
 .first-header {
@@ -21,9 +25,38 @@
     left: 50%;
     top: 75%;
     transform: translate(-50%, -50%);
-    background-color: rgba(204, 235, 233, 0.849);
+    background-color: #ADC7FF;
 }
 
+.tLink {
+    text-decoration: none;
+  color: white;
+  font-size: .8em;
+  width: 2em;
+  font-family: Calm;
+}
+
+@keyframes mymove2 {
+    from {
+      font-size: .8em;
+      color: white;
+    }
+    to {
+      font-size: .83em;
+      color: #9470FF;
+    }
+  }
+
+  @font-face {
+      font-family: Tang;
+      src: url('./Fonts/Tangiang.otf');
+  }
+
+.tLink:hover {
+    animation: mymove2 1s ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
 @media screen and (max-width: 700px) {
     .carousel-div {
         position: absolute;
