@@ -8,7 +8,7 @@ nav {
 
 
 .nav-text {
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
     color:white;
     font-family: ComfortBold;
@@ -24,7 +24,7 @@ nav {
     }
     
     .active{
-        font-size: 2.3em;
+        font-size: 2em;
        color: #5F00A3;
        text-shadow: .1em .1em .2em lightgray;
 
