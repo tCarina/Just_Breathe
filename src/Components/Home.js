@@ -7,12 +7,12 @@ export default function Home() {
       {" "}
       <NavBar />
       <div className='homeContainer'>
-      <h3>
+      <h4>
         Anxitey is a feeling of Fear, Dread, and Uneasiness. It is one of the
         leading Mental Health concerns in the US with over 40 million adults
         being affected. Let's take a second to Just Breathe and process the
         facts that are down below.
-      </h3>
+      </h4>
       <div className="card-facts">
         <div className="card2">
           <Card border="primary" style={{ width: "18rem" }}>
