@@ -2,6 +2,8 @@
     color: #001eff;
     font-family: Comfort;
     font-size: 1em;
+    background-color: transparent;
+    box-shadow: transparent;
 }
 
 .carousel-p {
@@ -30,7 +32,7 @@
 
 .tLink {
     text-decoration: none;
-    color: rgb(99, 99, 99);
+    color: white;
     font-size: .8em;
     font-family: Tang;
 }
