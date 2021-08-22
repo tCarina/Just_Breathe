@@ -8,22 +8,37 @@ nav {
 
 
 .nav-text {
-    font-size: 22px;
+    font-size: 2em;
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:white;
+    font-family: Calm;
 }
 .nav-logo{
-    font-size: 18px;
-    text-shadow: 2px 2px 5px rgb(129, 129, 129);
+    font-size: 3.7em;
+    text-shadow: .1em .1em .2em grey;
+    font-family: Coconut;
 }
    
 .nav-text:hover{
-       color:rgb(93, 207, 241)
+       color: #5F00A3;
+    }
+    
+    .active{
+        font-size: 2.3em;
+       color: #5F00A3;
+       text-shadow: .1em .1em .2em lightgray;
+
 }
 
-.active{
-    font-size: 27px;
-       color:rgb(255, 255, 255);
+@font-face {
+    font-family: Coconut;
+    src: url('./Fonts/Creamy\ Coconut.ttf');
+}
+
+
+@font-face {
+    font-family: Calm;
+    src: url('./Fonts/Calm\ Down.ttf');
 }
    
    @media screen and (max-width: 900px) {
