@@ -39,6 +39,11 @@ nav {
     font-family: ComfortBold;
     src: url('./Fonts/Comfortaa-Bold.ttf');
 }
+
+@font-face {
+    font-family: Comfort;
+    src: url('./Fonts/Comfortaa-Regular.ttf');
+}
    
    @media screen and (max-width: 900px) {
        .nav-text{
