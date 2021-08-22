@@ -1,14 +1,12 @@
 .carousel-h3 {
-    color: #354cfa;
+    color: #001eff;
     font-family: Comfort;
     font-size: 1em;
 }
 
 .carousel-p {
     color: black;
-    font-size: .7em;
-    font-family: Tang;
-    font-weight: 500;
+    font-size: .5em;
     margin-bottom: -10px;
 }
 
@@ -24,16 +22,16 @@
     border-radius: 12px;
     padding: 3px;
     position: fixed;
-    left: 50%;
     top: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(196, 205, 255, 0.8);
 }
 
 .tLink {
     text-decoration: none;
-    color: white;
-    font-size: .9em;
+    color: rgb(99, 99, 99);
+    font-size: .8em;
     font-family: Tang;
 }
 
