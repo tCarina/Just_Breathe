@@ -1,12 +1,12 @@
 .carousel-h3 {
     color: #354cfa;
-    /* font-family: Skate; */
+    font-family: Comfort;
     font-size: 1em;
 }
 
 .carousel-p {
     color: black;
-    font-size: .5em;
+    font-size: .7em;
     font-family: Tang;
     font-weight: 500;
     margin-bottom: -10px;
@@ -27,20 +27,19 @@
     left: 50%;
     top: 75%;
     transform: translate(-50%, -50%);
-    /* background-color: #ADC7FF; */
     background-color: rgba(196, 205, 255, 0.8);
 }
 
 .tLink {
     text-decoration: none;
     color: white;
-    font-size: .6em;
-    font-family: Calm;
+    font-size: .9em;
+    font-family: Tang;
 }
 
 @keyframes mymove2 {
     from {
-        font-size: .8em;
+        font-size: .9em;
         color: white;
     }
     to {
